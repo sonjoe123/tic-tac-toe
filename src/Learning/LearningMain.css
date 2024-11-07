@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.left-section {
+  flex: 1;
+  overflow: hidden;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-right {
+  flex: 0 0 auto; /* Prevent flex-grow and flex-shrink */
+  overflow: hidden;
+  position: relative;
+}
+
+.bottom-right {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#generatedCode {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
